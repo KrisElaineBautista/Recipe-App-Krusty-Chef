@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Recipe App_KrustyChef</string>
+    <string name="About">About Us</string>
+    <string name="Description">Introducing Krusty Chef by Flavor Masters!
+    Explore the vibrant world of Philippine delicacies with our easy-to-follow recipes.
+    From adobo to sinigang to halo-halo, let Krusty Chef be your passport to mastering Filipino cuisine!</string>
+
+    <string name="addrecipe_krustychef">Krusty Chef</string>
+    <string name="addrecipe_addyourrecipe">Add Your Recipe</string>
+    <string name="addrecipe_save">Save</string>
+    <string name="addrecipe_clear">Clear</string>
+    <string name="addrecipe_recipename">Recipe Name</string>
+    <string name="addrecipe_procedure">Procedure</string>
+    <string name="addrecipe_ingredients">Ingredients</string>
+    <string name="addrecipe_recipenamev2">Recipe Name</string>
+    <string name="addrecipe_procedurev2">Procedure:</string>
+    <string name="addrecipe_ingredientsv2">Ingredients:</string>
+
+    <string name="bulalo_krustychef">Krusty Chef</string>
+    <string name="bulalo_name">Bulalo</string>
+    <string name="bulalo_ingredients">Ingredients</string>
+    <string name="bulalo_procedure">Procedure</string>
+    <string name="Displayingredients"></string>
+    <string name="Displayprocedure"></string>
+
+    <string name="feedback_krustychef">Krusty Chef</string>
+    <string name="feedback_write">Write a Review</string>
+    <string name="feedback_say">Say what you think about this app?</string>
+    <string name="feedback_rate">Rate Us</string>
+    <string name="feedback_button">Send</string>
+
+    <string name="homescreen_krustychef">Krusty Chef</string>
+    <string name="homescreen_dish1">Pork Adobo</string>
+    <string name="homescreen_view1">View</string>
+    <string name="homescreen_dish2">Pork Sisig</string>
+    <string name="homescreen_view2">View</string>
+    <string name="homescreen_dish3">Pancit</string>
+    <string name="homescreen_view3">View</string>
+    <string name="homescreen_dish4">Lumpia</string>
+    <string name="homescreen_view4">View</string>
+    <string name="homescreen_dish5">Bulalo</string>
+    <string name="homescreen_view5">View</string>
+
+    <string name="lumpia_krustychef">Krusty Chef</string>
+    <string name="lumpia_name">Lumpia</string>
+    <string name="lumpia_ingredients">Ingredients</string>
+    <string name="lumpia_procedure">Procedure</string>
+    <string name="Displayingredients2"></string>
+    <string name="Displayprocedure2"></string>
+
+    <string name="Main_krustychef">Krusty Chef</string>
+    <string name="Main_login">Login</string>
+    <string name="Main_user">Email:</string>
+    <string name="Main_password">Password:</string>
+    <string name="Main_loginbtn">Login</string>
+    <string name="Main_forgot">Forgot password?</string>
+    <string name="Main_create">Don\'t have an account? Sign up</string>
+
+
+    <string name="pancit_krustychef">Krusty Chef</string>
+    <string name="pancit_name">Lumpia</string>
+    <string name="pancit_ingredients">Ingredients</string>
+    <string name="pancit_procedure">Procedure</string>
+    <string name="Displayingredients3"></string>
+    <string name="Displayprocedure3"></string>
+
+    <string name="Signup_krustychef">Krusty Chef</string>
+    <string name="Signup">Signup</string>
+    <string name="Signup_user">Email:</string>
+    <string name="Signup_password">Password:</string>
+    <string name="Signup_cpassword">Confirm Password:</string>
+    <string name="Signup_btn">Signup</string>
+    <string name="Signup_forgot">Forgot password?</string>
+    <string name="Signup_already">Already have an account? Login</string>
+
+    <string name="adobo_krustychef">Krusty Chef</string>
+    <string name="adobo_name">Pork Adobo</string>
+    <string name="adobo_ingredients">Ingredients</string>
+    <string name="adobo_procedure">Procedure</string>
+    <string name="Displayingredients4"></string>
+    <string name="Displayprocedure4"></string>
+
+    <string name="sisig_krustychef">Krusty Chef</string>
+    <string name="sisig_name">Pork Sisig</string>
+    <string name="sisig_ingredients">Ingredients</string>
+    <string name="sisig_procedure">Procedure</string>
+    <string name="Displayingredients5"></string>
+    <string name="Displayprocedure5"></string>
+
+    <string name="Kris">Kris Elaine Bautista</string>
+    <string name="Ramona">Mary Rose Hagler</string>
+    <string name="Ron">Ron Jansen Dalida</string>
+</resources>

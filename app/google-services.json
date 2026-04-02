@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "191804579988",
+    "project_id": "recipe-43ffb",
+    "storage_bucket": "recipe-43ffb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191804579988:android:294ab618fd7597658fd481",
+        "android_client_info": {
+          "package_name": "com.data.recipeapp_krustychef"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWg3QzCszSYrMlCSV3TnMnm_PJ4vlaSYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

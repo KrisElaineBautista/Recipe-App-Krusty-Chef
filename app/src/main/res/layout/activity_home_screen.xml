@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDB44D"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="173dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/krabby"
+        android:text="@string/homescreen_krustychef"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/edtSearch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TextSizeCheck" />
+
+
+    <ImageView
+        android:id="@+id/infobtn"
+        android:layout_width="34dp"
+        android:layout_height="42dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.957"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/infobtn"
+        tools:ignore="ContentDescription" />
+
+
+    <ImageView
+        android:id="@+id/logoutbtn"
+        android:layout_width="34dp"
+        android:layout_height="42dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.848"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/logout"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/backbtn"
+        android:layout_width="34dp"
+        android:layout_height="42dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/leftarrow"
+        tools:ignore="ContentDescription" />
+
+
+    <EditText
+        android:id="@+id/edtSearch"
+        android:layout_width="338dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="#DADADA"
+        android:drawableLeft="@drawable/searchicon"
+        android:ems="10"
+        android:hint="Search"
+        android:inputType="text"
+        android:paddingLeft="15dp"
+        android:textColorHint="#795548"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="HardcodedText,MissingConstraints,NotSibling,RtlHardcoded,RtlSymmetry"
+        android:autofillHints="" />
+
+
+    <ScrollView
+        android:layout_width="424dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_corner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtSearch"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="330dp"
+            android:layout_height="585dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/rounded_corner"
+            android:backgroundTint="#A85E36"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+
+            <ImageView
+                android:id="@+id/foodimg1"
+                android:layout_width="250dp"
+                android:layout_height="174dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                app:srcCompat="@drawable/adobo"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/txtname1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/homescreen_dish1"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnview1"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#FF9800"
+                android:text="@string/homescreen_view1"
+                android:textColor="#424242"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+
+            <ImageView
+                android:id="@+id/foodimg2"
+                android:layout_width="250dp"
+                android:layout_height="174dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                app:srcCompat="@drawable/sisig"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/txtname2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/homescreen_dish2"
+                android:textAlignment="center"
+                android:textColor="#FFF7F7"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnview2"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#FF9800"
+                android:text="@string/homescreen_view2"
+                android:textColor="#424242" />
+
+
+            <ImageView
+                android:id="@+id/foodimg3"
+                android:layout_width="250dp"
+                android:layout_height="174dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                app:srcCompat="@drawable/pancit"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/txtname3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/homescreen_dish3"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnview3"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#FF9800"
+                android:text="@string/homescreen_view3"
+                android:textColor="#424242"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+
+            <ImageView
+                android:id="@+id/foodimg4"
+                android:layout_width="250dp"
+                android:layout_height="174dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                app:srcCompat="@drawable/lumpia"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/txtname4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/homescreen_dish4"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnview4"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#FF9800"
+                android:text="@string/homescreen_view4"
+                android:textColor="#424242" />
+
+
+            <ImageView
+                android:id="@+id/foodimg5"
+                android:layout_width="250dp"
+                android:layout_height="174dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                app:srcCompat="@drawable/bulalo"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/txtname5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/homescreen_dish5"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnview5"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#FF9800"
+                android:text="@string/homescreen_view5"
+                android:textColor="@color/white" />
+
+
+            <ImageView
+                android:id="@+id/addbtn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintTop_toBottomOf="@+id/btn4"
+                app:srcCompat="@drawable/addbtn2"
+                tools:ignore="ContentDescription" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
