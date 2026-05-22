@@ -3,9 +3,9 @@
 This is a group project created as part of our course.
 
 ## Contributors
-- Kris Elaine S. Bautista
-- Ron Jansen Dalida
-- Mary Rose Hagler
+- Leader: Kris Elaine S. Bautista
+- Member: Ron Jansen Dalida
+- Member: Mary Rose Hagler
 
 ## Project Overview
 Krusty Chef is a recipe application that allows users to:
