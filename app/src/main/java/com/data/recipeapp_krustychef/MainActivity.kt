@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         auth = FirebaseAuth.getInstance()
 
+
         binding.btnLogin.setOnClickListener {
             val email = binding.edtusernme.text.toString().trim()
             val password = binding.edtpword.text.toString().trim()
